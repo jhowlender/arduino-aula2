@@ -1,0 +1,55 @@
+/**
+ * estudo do laço for
+ * @author Jhonata Reis
+ */
+
+
+
+void setup() {
+  Serial.begin(9600);//9600 bps
+  float sensorTemperatura =23; // FLOAT NUMERO NAO INTEIROS
+  int idade=28;                // INT NUMERO INTEIROS
+  Serial.print("Temperatura: ");
+  Serial.println(sensorTemperatura) ;
+  Serial.print("idade: ");
+  Serial.println(idade);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+
+}
+
+
+VARIAVEIS:
+
+iNT   (NUMEROS INTEIROS)
+FLOAT (NUMERO INTEIROS E NAO INTEIROS)
+
+NOMES DE VARIAVEIS:
+*** NAO PODE, TER ESPAÇOS E NEM CARACTERIES ESPECIAIS
+*** NAO PODEM SER USADOS NOMES DE PALAVRAS RESERVADAS DA LIMGUAGEM
+
+DICAS
+**USAR TECNICA DO CAMELO PARA NOMEAR VARIAVEIS
+**USAR A TECNICA DE CLEAN CODE
+
+
+
+LAÇO FOR 
+
+for (int i=1; i<=10; i++){
+  
+   }
+
+void setup() {
+  Serial.begin(9600);
+  int valor=5;
+  for (int i=0; i<=10; i++){
+   Serial.print(valor);
+   Serial.print(" x ");
+   Serial.print(i);
+   Serial.print(" = ");
+   Serial.println(valor * i);
+   }
+}
